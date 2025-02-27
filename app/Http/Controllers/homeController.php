@@ -43,7 +43,7 @@ class homeController extends Controller
      */
     public function edit(string $id)
     {
-        //
+        return view('primer.entrenadores',['id'=>$id]);
     }
 
     /**

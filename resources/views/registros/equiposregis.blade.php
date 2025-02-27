@@ -70,6 +70,7 @@
         <button><a href="{{route('home.index')}}">Inicio</a></button>
         <button><a href="{{route('home.create')}}">Equipos</a></button>
         <button><a href="{{route('home.show', 0)}}">Deportistas</a></button>
+        <button><a href="{{route('home.edit', 0)}}">Entrenadores</a></button>
     </nav>
 
     <footer>
