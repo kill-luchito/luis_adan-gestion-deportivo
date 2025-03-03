@@ -12,9 +12,9 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('resultado', function (Blueprint $table) {
-            $table->id('partido');
-            $table->string('equipoganador');
-            $table->string('equipoperdedor');
+            $table->id('partidoid');
+            $table->string('equipo_ganador');
+            $table->string('equipo_perdedor');
             $table->integer('marcador');
             $table->timestamps();
         });
